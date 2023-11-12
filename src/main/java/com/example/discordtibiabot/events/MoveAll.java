@@ -16,6 +16,8 @@ public class MoveAll extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
 
+
+
         String regex = "bot\\.moveAll\\(([^)]+)\\)";
 
         String content = event.getMessage().getContentRaw();
@@ -63,7 +65,7 @@ public class MoveAll extends ListenerAdapter {
                     }
 
                 }
-                
+
             }
             else
             {
